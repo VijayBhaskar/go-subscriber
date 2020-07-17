@@ -1,0 +1,161 @@
+Microsoft Windows [Version 10.0.18362.900]
+(c) 2019 Microsoft Corporation. All rights reserved.
+
+C:\Vijay\go\go-subscriber>go build subscriber.go
+subscriber.go:8:2: cannot find package "github.com/Shopify/sarama" in any of:
+        c:\go\src\github.com\Shopify\sarama (from $GOROOT)
+        C:\Vijay\go\go-workspace\src\github.com\Shopify\sarama (from $GOPATH)
+
+C:\Vijay\go\go-subscriber>go get -v -u github.com/Shopify/sarama
+github.com/Shopify/sarama (download)
+github.com/davecgh/go-spew (download)
+github.com/eapache/go-resiliency (download)
+github.com/eapache/go-xerial-snappy (download)
+github.com/golang/snappy (download)
+github.com/eapache/queue (download)
+github.com/jcmturner/gofork (download)
+github.com/klauspost/compress (download)
+github.com/pierrec/lz4 (download)
+github.com/rcrowley/go-metrics (download)
+get "golang.org/x/net/proxy": found meta tag get.metaImport{Prefix:"golang.org/x/net", VCS:"git", RepoRoot:"https://go.googlesource.com/net"} at //golang.org/x/net/proxy?go-get=1
+get "golang.org/x/net/proxy": verifying non-authoritative meta tag
+golang.org/x/net (download)
+get "golang.org/x/net/internal/socks": found meta tag get.metaImport{Prefix:"golang.org/x/net", VCS:"git", RepoRoot:"https://go.googlesource.com/net"} at //golang.org/x/net/internal/socks?go-get=1
+get "golang.org/x/net/internal/socks": verifying non-authoritative meta tag
+get "gopkg.in/jcmturner/gokrb5.v7/asn1tools": found meta tag get.metaImport{Prefix:"gopkg.in/jcmturner/gokrb5.v7", VCS:"git", RepoRoot:"https://gopkg.in/jcmturner/gokrb5.v7"} at //gopkg.in/jcmturner/gokrb5.v7/asn1tools?go-get=1
+get "gopkg.in/jcmturner/gokrb5.v7/asn1tools": verifying non-authoritative meta tag
+gopkg.in/jcmturner/gokrb5.v7 (download)
+get "gopkg.in/jcmturner/gokrb5.v7/client": found meta tag get.metaImport{Prefix:"gopkg.in/jcmturner/gokrb5.v7", VCS:"git", RepoRoot:"https://gopkg.in/jcmturner/gokrb5.v7"} at //gopkg.in/jcmturner/gokrb5.v7/client?go-get=1
+get "gopkg.in/jcmturner/gokrb5.v7/client": verifying non-authoritative meta tag
+get "gopkg.in/jcmturner/gokrb5.v7/config": found meta tag get.metaImport{Prefix:"gopkg.in/jcmturner/gokrb5.v7", VCS:"git", RepoRoot:"https://gopkg.in/jcmturner/gokrb5.v7"} at //gopkg.in/jcmturner/gokrb5.v7/config?go-get=1
+get "gopkg.in/jcmturner/gokrb5.v7/config": verifying non-authoritative meta tag
+get "gopkg.in/jcmturner/dnsutils.v1": found meta tag get.metaImport{Prefix:"gopkg.in/jcmturner/dnsutils.v1", VCS:"git", RepoRoot:"https://gopkg.in/jcmturner/dnsutils.v1"} at //gopkg.in/jcmturner/dnsutils.v1?go-get=1
+gopkg.in/jcmturner/dnsutils.v1 (download)
+get "gopkg.in/jcmturner/gokrb5.v7/iana/etypeID": found meta tag get.metaImport{Prefix:"gopkg.in/jcmturner/gokrb5.v7", VCS:"git", RepoRoot:"https://gopkg.in/jcmturner/gokrb5.v7"} at //gopkg.in/jcmturner/gokrb5.v7/iana/etypeID?go-get=1
+get "gopkg.in/jcmturner/gokrb5.v7/iana/etypeID": verifying non-authoritative meta tag
+get "gopkg.in/jcmturner/gokrb5.v7/credentials": found meta tag get.metaImport{Prefix:"gopkg.in/jcmturner/gokrb5.v7", VCS:"git", RepoRoot:"https://gopkg.in/jcmturner/gokrb5.v7"} at //gopkg.in/jcmturner/gokrb5.v7/credentials?go-get=1
+get "gopkg.in/jcmturner/gokrb5.v7/credentials": verifying non-authoritative meta tag
+github.com/hashicorp/go-uuid (download)
+get "gopkg.in/jcmturner/gokrb5.v7/iana/nametype": found meta tag get.metaImport{Prefix:"gopkg.in/jcmturner/gokrb5.v7", VCS:"git", RepoRoot:"https://gopkg.in/jcmturner/gokrb5.v7"} at //gopkg.in/jcmturner/gokrb5.v7/iana/nametype?go-get=1
+get "gopkg.in/jcmturner/gokrb5.v7/iana/nametype": verifying non-authoritative meta tag
+get "gopkg.in/jcmturner/gokrb5.v7/keytab": found meta tag get.metaImport{Prefix:"gopkg.in/jcmturner/gokrb5.v7", VCS:"git", RepoRoot:"https://gopkg.in/jcmturner/gokrb5.v7"} at //gopkg.in/jcmturner/gokrb5.v7/keytab?go-get=1
+get "gopkg.in/jcmturner/gokrb5.v7/keytab": verifying non-authoritative meta tag
+get "gopkg.in/jcmturner/gokrb5.v7/types": found meta tag get.metaImport{Prefix:"gopkg.in/jcmturner/gokrb5.v7", VCS:"git", RepoRoot:"https://gopkg.in/jcmturner/gokrb5.v7"} at //gopkg.in/jcmturner/gokrb5.v7/types?go-get=1
+get "gopkg.in/jcmturner/gokrb5.v7/types": verifying non-authoritative meta tag
+get "gopkg.in/jcmturner/gokrb5.v7/iana": found meta tag get.metaImport{Prefix:"gopkg.in/jcmturner/gokrb5.v7", VCS:"git", RepoRoot:"https://gopkg.in/jcmturner/gokrb5.v7"} at //gopkg.in/jcmturner/gokrb5.v7/iana?go-get=1
+get "gopkg.in/jcmturner/gokrb5.v7/iana": verifying non-authoritative meta tag
+get "gopkg.in/jcmturner/gokrb5.v7/iana/addrtype": found meta tag get.metaImport{Prefix:"gopkg.in/jcmturner/gokrb5.v7", VCS:"git", RepoRoot:"https://gopkg.in/jcmturner/gokrb5.v7"} at //gopkg.in/jcmturner/gokrb5.v7/iana/addrtype?go-get=1
+get "gopkg.in/jcmturner/gokrb5.v7/iana/addrtype": verifying non-authoritative meta tag
+get "gopkg.in/jcmturner/gokrb5.v7/iana/asnAppTag": found meta tag get.metaImport{Prefix:"gopkg.in/jcmturner/gokrb5.v7", VCS:"git", RepoRoot:"https://gopkg.in/jcmturner/gokrb5.v7"} at //gopkg.in/jcmturner/gokrb5.v7/iana/asnAppTag?go-get=1
+get "gopkg.in/jcmturner/gokrb5.v7/iana/asnAppTag": verifying non-authoritative meta tag
+get "gopkg.in/jcmturner/gokrb5.v7/iana/patype": found meta tag get.metaImport{Prefix:"gopkg.in/jcmturner/gokrb5.v7", VCS:"git", RepoRoot:"https://gopkg.in/jcmturner/gokrb5.v7"} at //gopkg.in/jcmturner/gokrb5.v7/iana/patype?go-get=1
+get "gopkg.in/jcmturner/gokrb5.v7/iana/patype": verifying non-authoritative meta tag
+get "gopkg.in/jcmturner/gokrb5.v7/crypto": found meta tag get.metaImport{Prefix:"gopkg.in/jcmturner/gokrb5.v7", VCS:"git", RepoRoot:"https://gopkg.in/jcmturner/gokrb5.v7"} at //gopkg.in/jcmturner/gokrb5.v7/crypto?go-get=1
+get "gopkg.in/jcmturner/gokrb5.v7/crypto": verifying non-authoritative meta tag
+get "golang.org/x/crypto/md4": found meta tag get.metaImport{Prefix:"golang.org/x/crypto", VCS:"git", RepoRoot:"https://go.googlesource.com/crypto"} at //golang.org/x/crypto/md4?go-get=1
+get "golang.org/x/crypto/md4": verifying non-authoritative meta tag
+golang.org/x/crypto (download)
+get "gopkg.in/jcmturner/gokrb5.v7/crypto/common": found meta tag get.metaImport{Prefix:"gopkg.in/jcmturner/gokrb5.v7", VCS:"git", RepoRoot:"https://gopkg.in/jcmturner/gokrb5.v7"} at //gopkg.in/jcmturner/gokrb5.v7/crypto/common?go-get=1
+get "gopkg.in/jcmturner/gokrb5.v7/crypto/common": verifying non-authoritative meta tag
+get "gopkg.in/jcmturner/gokrb5.v7/crypto/etype": found meta tag get.metaImport{Prefix:"gopkg.in/jcmturner/gokrb5.v7", VCS:"git", RepoRoot:"https://gopkg.in/jcmturner/gokrb5.v7"} at //gopkg.in/jcmturner/gokrb5.v7/crypto/etype?go-get=1
+get "gopkg.in/jcmturner/gokrb5.v7/crypto/etype": verifying non-authoritative meta tag
+get "gopkg.in/jcmturner/gokrb5.v7/crypto/rfc3961": found meta tag get.metaImport{Prefix:"gopkg.in/jcmturner/gokrb5.v7", VCS:"git", RepoRoot:"https://gopkg.in/jcmturner/gokrb5.v7"} at //gopkg.in/jcmturner/gokrb5.v7/crypto/rfc3961?go-get=1
+get "gopkg.in/jcmturner/gokrb5.v7/crypto/rfc3961": verifying non-authoritative meta tag
+get "gopkg.in/jcmturner/gokrb5.v7/crypto/rfc3962": found meta tag get.metaImport{Prefix:"gopkg.in/jcmturner/gokrb5.v7", VCS:"git", RepoRoot:"https://gopkg.in/jcmturner/gokrb5.v7"} at //gopkg.in/jcmturner/gokrb5.v7/crypto/rfc3962?go-get=1
+get "gopkg.in/jcmturner/gokrb5.v7/crypto/rfc3962": verifying non-authoritative meta tag
+get "gopkg.in/jcmturner/aescts.v1": found meta tag get.metaImport{Prefix:"gopkg.in/jcmturner/aescts.v1", VCS:"git", RepoRoot:"https://gopkg.in/jcmturner/aescts.v1"} at //gopkg.in/jcmturner/aescts.v1?go-get=1
+gopkg.in/jcmturner/aescts.v1 (download)
+get "gopkg.in/jcmturner/gokrb5.v7/crypto/rfc4757": found meta tag get.metaImport{Prefix:"gopkg.in/jcmturner/gokrb5.v7", VCS:"git", RepoRoot:"https://gopkg.in/jcmturner/gokrb5.v7"} at //gopkg.in/jcmturner/gokrb5.v7/crypto/rfc4757?go-get=1
+get "gopkg.in/jcmturner/gokrb5.v7/crypto/rfc4757": verifying non-authoritative meta tag
+get "gopkg.in/jcmturner/gokrb5.v7/crypto/rfc8009": found meta tag get.metaImport{Prefix:"gopkg.in/jcmturner/gokrb5.v7", VCS:"git", RepoRoot:"https://gopkg.in/jcmturner/gokrb5.v7"} at //gopkg.in/jcmturner/gokrb5.v7/crypto/rfc8009?go-get=1
+get "gopkg.in/jcmturner/gokrb5.v7/crypto/rfc8009": verifying non-authoritative meta tag
+get "golang.org/x/crypto/pbkdf2": found meta tag get.metaImport{Prefix:"golang.org/x/crypto", VCS:"git", RepoRoot:"https://go.googlesource.com/crypto"} at //golang.org/x/crypto/pbkdf2?go-get=1
+get "golang.org/x/crypto/pbkdf2": verifying non-authoritative meta tag
+get "gopkg.in/jcmturner/gokrb5.v7/iana/chksumtype": found meta tag get.metaImport{Prefix:"gopkg.in/jcmturner/gokrb5.v7", VCS:"git", RepoRoot:"https://gopkg.in/jcmturner/gokrb5.v7"} at //gopkg.in/jcmturner/gokrb5.v7/iana/chksumtype?go-get=1
+get "gopkg.in/jcmturner/gokrb5.v7/iana/chksumtype": verifying non-authoritative meta tag
+get "gopkg.in/jcmturner/gokrb5.v7/iana/errorcode": found meta tag get.metaImport{Prefix:"gopkg.in/jcmturner/gokrb5.v7", VCS:"git", RepoRoot:"https://gopkg.in/jcmturner/gokrb5.v7"} at //gopkg.in/jcmturner/gokrb5.v7/iana/errorcode?go-get=1
+get "gopkg.in/jcmturner/gokrb5.v7/iana/errorcode": verifying non-authoritative meta tag
+get "gopkg.in/jcmturner/gokrb5.v7/iana/flags": found meta tag get.metaImport{Prefix:"gopkg.in/jcmturner/gokrb5.v7", VCS:"git", RepoRoot:"https://gopkg.in/jcmturner/gokrb5.v7"} at //gopkg.in/jcmturner/gokrb5.v7/iana/flags?go-get=1
+get "gopkg.in/jcmturner/gokrb5.v7/iana/flags": verifying non-authoritative meta tag
+get "gopkg.in/jcmturner/gokrb5.v7/iana/keyusage": found meta tag get.metaImport{Prefix:"gopkg.in/jcmturner/gokrb5.v7", VCS:"git", RepoRoot:"https://gopkg.in/jcmturner/gokrb5.v7"} at //gopkg.in/jcmturner/gokrb5.v7/iana/keyusage?go-get=1
+get "gopkg.in/jcmturner/gokrb5.v7/iana/keyusage": verifying non-authoritative meta tag
+get "gopkg.in/jcmturner/gokrb5.v7/kadmin": found meta tag get.metaImport{Prefix:"gopkg.in/jcmturner/gokrb5.v7", VCS:"git", RepoRoot:"https://gopkg.in/jcmturner/gokrb5.v7"} at //gopkg.in/jcmturner/gokrb5.v7/kadmin?go-get=1
+get "gopkg.in/jcmturner/gokrb5.v7/kadmin": verifying non-authoritative meta tag
+get "gopkg.in/jcmturner/gokrb5.v7/krberror": found meta tag get.metaImport{Prefix:"gopkg.in/jcmturner/gokrb5.v7", VCS:"git", RepoRoot:"https://gopkg.in/jcmturner/gokrb5.v7"} at //gopkg.in/jcmturner/gokrb5.v7/krberror?go-get=1
+get "gopkg.in/jcmturner/gokrb5.v7/krberror": verifying non-authoritative meta tag
+get "gopkg.in/jcmturner/gokrb5.v7/messages": found meta tag get.metaImport{Prefix:"gopkg.in/jcmturner/gokrb5.v7", VCS:"git", RepoRoot:"https://gopkg.in/jcmturner/gokrb5.v7"} at //gopkg.in/jcmturner/gokrb5.v7/messages?go-get=1
+get "gopkg.in/jcmturner/gokrb5.v7/messages": verifying non-authoritative meta tag
+get "gopkg.in/jcmturner/gokrb5.v7/iana/adtype": found meta tag get.metaImport{Prefix:"gopkg.in/jcmturner/gokrb5.v7", VCS:"git", RepoRoot:"https://gopkg.in/jcmturner/gokrb5.v7"} at //gopkg.in/jcmturner/gokrb5.v7/iana/adtype?go-get=1
+get "gopkg.in/jcmturner/gokrb5.v7/iana/adtype": verifying non-authoritative meta tag
+get "gopkg.in/jcmturner/gokrb5.v7/iana/msgtype": found meta tag get.metaImport{Prefix:"gopkg.in/jcmturner/gokrb5.v7", VCS:"git", RepoRoot:"https://gopkg.in/jcmturner/gokrb5.v7"} at //gopkg.in/jcmturner/gokrb5.v7/iana/msgtype?go-get=1
+get "gopkg.in/jcmturner/gokrb5.v7/iana/msgtype": verifying non-authoritative meta tag
+get "gopkg.in/jcmturner/gokrb5.v7/pac": found meta tag get.metaImport{Prefix:"gopkg.in/jcmturner/gokrb5.v7", VCS:"git", RepoRoot:"https://gopkg.in/jcmturner/gokrb5.v7"} at //gopkg.in/jcmturner/gokrb5.v7/pac?go-get=1
+get "gopkg.in/jcmturner/gokrb5.v7/pac": verifying non-authoritative meta tag
+get "gopkg.in/jcmturner/rpc.v1/mstypes": found meta tag get.metaImport{Prefix:"gopkg.in/jcmturner/rpc.v1", VCS:"git", RepoRoot:"https://gopkg.in/jcmturner/rpc.v1"} at //gopkg.in/jcmturner/rpc.v1/mstypes?go-get=1
+get "gopkg.in/jcmturner/rpc.v1/mstypes": verifying non-authoritative meta tag
+gopkg.in/jcmturner/rpc.v1 (download)
+get "gopkg.in/jcmturner/rpc.v1/ndr": found meta tag get.metaImport{Prefix:"gopkg.in/jcmturner/rpc.v1", VCS:"git", RepoRoot:"https://gopkg.in/jcmturner/rpc.v1"} at //gopkg.in/jcmturner/rpc.v1/ndr?go-get=1
+get "gopkg.in/jcmturner/rpc.v1/ndr": verifying non-authoritative meta tag
+get "gopkg.in/jcmturner/gokrb5.v7/gssapi": found meta tag get.metaImport{Prefix:"gopkg.in/jcmturner/gokrb5.v7", VCS:"git", RepoRoot:"https://gopkg.in/jcmturner/gokrb5.v7"} at //gopkg.in/jcmturner/gokrb5.v7/gssapi?go-get=1
+get "gopkg.in/jcmturner/gokrb5.v7/gssapi": verifying non-authoritative meta tag
+github.com/eapache/queue
+gopkg.in/jcmturner/gokrb5.v7/iana/etypeID
+gopkg.in/jcmturner/gokrb5.v7/iana/nametype
+gopkg.in/jcmturner/gokrb5.v7/iana/addrtype
+gopkg.in/jcmturner/gokrb5.v7/iana
+gopkg.in/jcmturner/gokrb5.v7/iana/asnAppTag
+gopkg.in/jcmturner/gokrb5.v7/iana/patype
+gopkg.in/jcmturner/gokrb5.v7/iana/chksumtype
+gopkg.in/jcmturner/gokrb5.v7/iana/flags
+gopkg.in/jcmturner/gokrb5.v7/iana/keyusage
+gopkg.in/jcmturner/gokrb5.v7/iana/adtype
+gopkg.in/jcmturner/gokrb5.v7/iana/msgtype
+gopkg.in/jcmturner/gokrb5.v7/crypto/etype
+golang.org/x/crypto/md4
+github.com/jcmturner/gofork/x/crypto/pbkdf2
+golang.org/x/crypto/pbkdf2
+github.com/golang/snappy
+github.com/eapache/go-resiliency/breaker
+github.com/klauspost/compress/snappy
+github.com/klauspost/compress/zstd/internal/xxhash
+github.com/pierrec/lz4/internal/xxh32
+github.com/davecgh/go-spew/spew
+github.com/jcmturner/gofork/encoding/asn1
+github.com/klauspost/compress/fse
+golang.org/x/net/internal/socks
+gopkg.in/jcmturner/dnsutils.v1
+github.com/rcrowley/go-metrics
+github.com/hashicorp/go-uuid
+gopkg.in/jcmturner/gokrb5.v7/crypto/common
+github.com/pierrec/lz4
+gopkg.in/jcmturner/aescts.v1
+golang.org/x/net/proxy
+gopkg.in/jcmturner/gokrb5.v7/crypto/rfc4757
+github.com/klauspost/compress/huff0
+gopkg.in/jcmturner/gokrb5.v7/iana/errorcode
+gopkg.in/jcmturner/gokrb5.v7/crypto/rfc3961
+gopkg.in/jcmturner/gokrb5.v7/krberror
+gopkg.in/jcmturner/rpc.v1/ndr
+github.com/eapache/go-xerial-snappy
+gopkg.in/jcmturner/gokrb5.v7/asn1tools
+gopkg.in/jcmturner/gokrb5.v7/config
+gopkg.in/jcmturner/gokrb5.v7/crypto/rfc3962
+gopkg.in/jcmturner/gokrb5.v7/crypto/rfc8009
+gopkg.in/jcmturner/gokrb5.v7/types
+github.com/klauspost/compress/zstd
+gopkg.in/jcmturner/rpc.v1/mstypes
+gopkg.in/jcmturner/gokrb5.v7/keytab
+gopkg.in/jcmturner/gokrb5.v7/crypto
+gopkg.in/jcmturner/gokrb5.v7/credentials
+gopkg.in/jcmturner/gokrb5.v7/gssapi
+gopkg.in/jcmturner/gokrb5.v7/pac
+gopkg.in/jcmturner/gokrb5.v7/messages
+gopkg.in/jcmturner/gokrb5.v7/kadmin
+gopkg.in/jcmturner/gokrb5.v7/client
+github.com/Shopify/sarama
+
+C:\Vijay\go\go-subscriber>
+
+C:\Vijay\go\go-subscriber>
+
+C:\Vijay\go\go-subscriber>
