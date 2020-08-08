@@ -1,0 +1,88 @@
+syntax = "proto3";
+import "google/protobuf/timestamp.proto";
+option go_package = ".;intervalpb";
+
+
+message IntervalDataList {
+  repeated IntervalData interval_data = 1;
+}
+
+
+message IntervalData
+{
+  AssetId asset_id = 1;
+  Aggregation aggregation = 2;
+  google.protobuf.Timestamp timestamp = 3;
+  repeated Data data = 4;
+  Quality quality = 5;
+  AssetId unmapped_asset_id = 6;
+}
+
+
+message AssetId
+{
+  oneof asset_id
+  {
+    int32 int_asset_id = 1;
+    string string_asset_id = 2;
+  }
+}
+
+
+enum Aggregation
+{
+  SAM_5S = 0;
+  SAM_30S = 1;
+  AVG_30S = 2;
+  AVG_10M = 3;
+  MIN_10M = 4;
+  MAX_10M = 5;
+  STD_10M = 6;
+  SAM_10M = 7;
+  MIN_30S = 8;
+  MAX_30S = 9;
+  STD_30S = 10;
+  RAW = 11;
+}
+
+
+enum Quality
+{
+  GOOD = 0;
+  BAD = 1;
+  UNCERTAIN = 2;
+  ESTIMATED = 3;
+}
+
+
+message Data
+{
+  TagTypeId tag_type_id = 1;
+  Value value = 2;
+  TagTypeId unmapped_tag_type_id = 3;
+}
+
+
+message TagTypeId
+{
+  oneof tag_type_id
+  {
+    int32 int_type_id = 1;
+    string string_type_id = 2;
+  }
+}
+
+
+message Value
+{
+  oneof value
+  {
+    double double_value = 1;
+    float float_value = 2;
+    int32 int_value = 3;
+    int64 long_value = 4;
+    sint32 ints_value = 5;
+    sint64 longs_value = 6;
+    bool boolean_value = 7;
+  }
+}
